@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Filament\Resources\RoomCategoryResource\Pages;
+
+use App\Filament\Resources\RoomCategoryResource;
+use Filament\Actions;
+use Filament\Resources\Pages\CreateRecord;
+
+class CreateRoomCategory extends CreateRecord
+{
+    protected static string $resource = RoomCategoryResource::class;
+}
